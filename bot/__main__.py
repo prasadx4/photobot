@@ -6,8 +6,6 @@ from time import time
 from sys import executable
 from telegram.ext import CommandHandler
 
-from bot import  IGNORE_PENDING_REQUESTS, LOGGER, Interval, \
-                DATABASE_URL, app, main_loop, QbInterval, INCOMPLETE_TASK_NOTIFIER
 from .helper.ext_utils.fs_utils import start_cleanup, clean_all, exit_clean_up
 from .helper.ext_utils.bot_utils import get_readable_file_size, get_readable_time
 from .helper.ext_utils.db_handler import DbManger
