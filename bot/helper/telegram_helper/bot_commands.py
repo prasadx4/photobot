@@ -1,4 +1,4 @@
-from bot import CMD_SUFFIX
+
 
 
 class _BotCommands:
